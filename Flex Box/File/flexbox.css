@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(https://fonts.google.com/specimen/Poppins);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+@import url("C:/Users/David Katchy/Documents/Zuri/Flex Box/Flexbox/docs/bg-intro-desktop.png");
+@import url("C:\Users\David Katchy\Documents\Zuri\Flex Box\Flexbox\docs\bg-intro-mobile.png");
+
+body {
+    background-image: url("C:/Users/David Katchy/Documents/Zuri/Flex Box/Flexbox/docs/bg-intro-desktop.png");
+    background-repeat: repeat;
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;    
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:white;
+}
+
+. left-content {
+    align-items: center;    
+    padding: 20px;
+    margin: auto;
+    color: white;
+}
+
+h1 {
+    color:white;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px;
+}
+
+. left-content p {
+    font-size: 20px;
+}
+
+. right-content {
+    align-items: middle;
+    text-align: center;
+}
+
+. top-half {
+    background-color: hsl(246, 25%, 77%);    
+    color: white;
+    padding: 10px;
+    
+}
+
+
+form p {
+    padding: 2px;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+} 
+
+form {
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 30px;
+    background-color: white;
+    align-items: center;
+    margin-left: 13px;
+}
+
+input[type="text"], input[type='email'], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-color:hsl(246, 25%, 77%);
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.button1 {
+    margin-left: 10px;
+    background-color: hsl(248, 32%, 49%);
+    border-color: hsl(246, 25%, 77%);
+    color: white;
+    border-radius: 12px;
+    padding: 2px;
+    width: 98.5%;
+}
+
+.button {
+    border-radius: 4px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border-color: hsl(248, 32%, 49%);
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+form a {
+    color: hsl(0, 100%, 74%) ;
+}
+
+@media screen and (max-width: 1440px){
+    body {
+        background-image: url("C:/Users/David Katchy/Documents/Zuri/Flex Box/Flexbox/docs/bg-intro-desktop.png");
+        background-repeat: repeat;
+        background-color: hsl(0, 100%, 74%);
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;    
+    }    
+}
+
+
+@media screen and (max-width: 375px){
+    body {
+        background-image: url("C:/Users/David Katchy/Documents/Zuri/Flex Box/Flexbox/docs/bg-intro-mobile.png");
+        background-repeat: repeat;
+        background-color: hsl(0, 100%, 74%);
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    
+    }
+}
